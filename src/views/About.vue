@@ -101,6 +101,6 @@ a {
   color: black;
   font-size: 20px;
   padding: 2px;
-  font-family: cursive;
+  font-size: bold;
 }
 </style>
