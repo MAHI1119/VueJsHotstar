@@ -14,7 +14,7 @@
       <div class="rounded-2">
         <router-link to="/Subscribe"> <h6>SUBSCRIBE</h6></router-link>
       </div>
-      <div class="log"><a href="#">Logout</a></div>
+      <div class="log"><a href="#">Login</a></div>
     </nav>
   </VueScrollFixedNavbar>
 </template>
@@ -129,7 +129,7 @@ nav {
   width: 100%;
 }
 nav .menu-item {
-  padding: 20px 10px;
+  padding: 20px 12px;
   position: relative;
   display: flex;
 }
@@ -145,21 +145,21 @@ h6 {
   float: right;
   color: white;
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .rounded-2 {
   padding: 7px;
   background: #1f50f1;
   color: white;
   border: 1px solid #1f50f1;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 .search {
   width: 190px;
   border-bottom: 1px solid white;
-  padding: 5px;
-  margin: 0px 0px 0px 80px;
+  margin: 0px 10px 0px 120px;
 }
+
 #tv1 {
   color: orange;
   font-family: cursive;
@@ -280,7 +280,7 @@ VueScrollFixedNavbar {
     display: none;
   }
 }
-@media (min-width: 931px) and (max-width: 1080px) {
+@media (min-width: 931px) and (max-width: 1075px) {
   #tv {
     display: none;
   }

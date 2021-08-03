@@ -13,7 +13,7 @@
         (OTT) video consumers.
       </p>
 
-      <h5>A Video Experience Like No Other</h5>
+      <h5 class="hlght">A Video Experience Like No Other</h5>
       <p>
         <span class="dark">Seamless Video Playback</span> - Our adaptive video
         streaming technology ensures that the best possible video quality is
@@ -78,17 +78,13 @@ p {
   color: gray;
   font-size: 15px;
 }
-body {
-  background-color: gainsboro;
-  color: black;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 a {
   text-decoration: none;
 }
-
+.content {
+  margin: 0px 25px;
+}
 .copy {
   width: 580px;
   font-size: 13px;
@@ -98,58 +94,13 @@ a {
 .mainlogo {
   margin-top: 10px;
 }
-
-.abt {
-  color: gray;
-  font-size: 15px;
+.hlght {
+  color: black;
 }
-
-.abt:hover {
-  color: blue;
-}
-
-.fbimg {
-  border-radius: 5px;
-  margin-left: 700px;
-}
-
-.twitimg {
-  margin-top: -50px;
-  border-radius: 5px;
-  margin-left: 770px;
-}
-
-.fb {
-  margin-top: -10px;
-}
-
-.connect {
-  margin-left: 710px;
-  margin-top: -90px;
-  font-size: 15px;
-  color: gray;
-}
-
-.googleimg {
-  margin-top: -50px;
-  border-radius: 5px;
-  margin-left: 980px;
-}
-
-.appleimg {
-  margin-top: -50px;
-  border-radius: 5px;
-  margin-left: 1150px;
-}
-
-.connect2 {
-  margin-top: -85px;
-  font-size: 15px;
-  margin-left: 1000px;
-  color: gray;
-}
-
-.google {
-  margin-top: 60px;
+.about {
+  color: black;
+  font-size: 20px;
+  padding: 2px;
+  font-family: cursive;
 }
 </style>
